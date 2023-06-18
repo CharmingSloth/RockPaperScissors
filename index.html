@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RockPaperScissors</title>
-    <script src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <section class="header">
+
+        <h1>Rock-Paper-Scissors</h1>
+
+    </section>
+
+    <section class="main">
+
+        <div class="choices">
+            <div class="choice-wrapper">
+                <div class="player-choice">🙂</div>
+                <p class="player-score">Player:</p>
+            </div>
+
+            <div class="choice-wrapper">
+                <div class="computer-choice">🤖</div>
+                <p class="computer-score">Computer:</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <h2 class="result">Chose your weapon</h2>
+            <p class="description">First to score 5 wins. Tie doesn`t count</p>
+        </div>
+
+        <div class="buttons">
+            <button class="button" id="rock">👊</button>
+            <button class="button" id="paper">🫳</button>
+            <button class="button" id="scissors">✌️</button>
+        </div>
+
+    </section>
+
+    <div class="pop-up">
+        <p class="pop-up-text"></p>
+        <button class="pop-up-button">PLAY AGAIN</button>
+    </div>
+    <div class="overlay"></div>
 </body>
 </html>
